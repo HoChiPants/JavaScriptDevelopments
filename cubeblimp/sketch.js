@@ -40,6 +40,7 @@ function draw() {
     }
     angle -= speed;
 }
+
 var mapHeight = (angle) => {
     return floor(map(sin(angle), -1, 1, minHeight, maxHeight));
 };
